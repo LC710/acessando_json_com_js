@@ -1,3 +1,34 @@
+## OBS: Precisa ter um o o Live Server intalado no VSCode 
+
+![LiveServer](liveServer.png)
+
+# Exemplo de Arquivo `dados.json`
+
+Para que o código funcione corretamente, crie um arquivo `dados.json` no mesmo diretório do arquivo HTML. O conteúdo do arquivo `dados.json` pode ser algo como:
+
+```json
+{
+    "usuarios": [
+        {
+            "nome": "João",
+      "idade": 25
+    },
+    {
+        "nome": "Maria",
+      "idade": 30
+    },
+    {
+        "nome": "Carlos",
+      "idade": 22
+    }
+  ]
+}
+
+```
+<br />
+
+# No navegador: 
+![teste](test.png)
 # acessando_json_com_js
 Acessando json com JS
 
@@ -36,25 +67,3 @@ Para rodar o projeto localmente, siga os seguintes passos:
 3. **Estrutura do Projeto**:
    - O código HTML deve estar na raiz do seu projeto.
    - O arquivo `dados.json` deve estar no mesmo diretório que o arquivo HTML ou em um caminho relativo correto.
-
-### Exemplo de Arquivo `dados.json`
-
-Para que o código funcione corretamente, crie um arquivo `dados.json` no mesmo diretório do arquivo HTML. O conteúdo do arquivo `dados.json` pode ser algo como:
-
-```json
-{
-  "usuarios": [
-    {
-      "nome": "João",
-      "idade": 25
-    },
-    {
-      "nome": "Maria",
-      "idade": 30
-    },
-    {
-      "nome": "Carlos",
-      "idade": 22
-    }
-  ]
-}
