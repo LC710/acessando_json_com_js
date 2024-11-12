@@ -1,0 +1,27 @@
+# Ignorar arquivos temporários de editor
+.vscode/
+.idea/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de build
+/dist/
+/build/
+
+# Ignorar arquivos de dependências (se houver)
+node_modules/
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de configuração locais
+.env
+
+# Ignorar arquivos de configuração de sistemas de versionamento
+*.bak
+*.swp
+
+# Ignorar o arquivo de cache de thumbnails (geralmente não é necessário em projetos web)
+.cache/
