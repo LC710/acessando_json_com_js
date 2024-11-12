@@ -1,3 +1,5 @@
+# acessando_json_com_js
+  
 ## OBS: Precisa ter um o o Live Server intalado no VSCode 
 
 ![LiveServer](liveServer.png)
@@ -29,8 +31,6 @@ Para que o código funcione corretamente, crie um arquivo `dados.json` no mesmo 
 
 # No navegador: 
 ![teste](test.png)
-# acessando_json_com_js
-Acessando json com JS
 
 # Acessando Dados de um Arquivo JSON com JavaScript
 
